@@ -64,3 +64,8 @@ When your output grid is ready, click the green "Submit!" button to check your a
 After you've obtained the correct answer for the current test input grid, you can switch to the next test input grid for the task using the "Next test input" button (if there is any available; most tasks only have one test input).
 
 When you're done with a task, use the "load task" button to open a new task.
+
+### Purpose of this Task For minogud2
+
+This task is part of an assignment at NUIG MSc in Artificial Intelligence. For the assignment, any 3 tasks from the data/training
+directory were chosen and a hand-coded solution was provided for each task. This solution consists of a solve function for each chosen task. The solve function is named: solve <ID>, where <ID> is the task ID, e.g. solve 017c7c7b. The only argument per function is x, a single grid, encoded as a 2D Numpy integer array. The solve function should return a single grid in the same format. To avoid trivial solutions: the solve * functions must not work by looking up the correct solutions, or contain any portion of the correct solutions as hard-coded data.
